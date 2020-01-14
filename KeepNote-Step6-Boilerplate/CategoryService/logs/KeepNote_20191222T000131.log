@@ -1,0 +1,260 @@
+2019-12-22 00:01:32 [main] INFO  c.s.k.CategoryServiceApplication -
+				Starting CategoryServiceApplication on DELL-PC with PID 16612 (started by DELL in D:\Final Integration\REST\KeepNote-Step6-Boilerplate\CategoryService)
+2019-12-22 00:01:32 [main] DEBUG c.s.k.CategoryServiceApplication -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-12-22 00:01:32 [main] INFO  c.s.k.CategoryServiceApplication -
+				No active profile set, falling back to default profiles: default
+2019-12-22 00:01:35 [localhost-startStop-1] DEBUG c.s.keepnote.jwtfilter.JwtFilter -
+				Initializing filter 'jwtFilter'
+2019-12-22 00:01:35 [localhost-startStop-1] DEBUG c.s.keepnote.jwtfilter.JwtFilter -
+				Filter 'jwtFilter' configured successfully
+2019-12-22 00:01:40 [main] INFO  c.s.k.CategoryServiceApplication -
+				Started CategoryServiceApplication in 8.741 seconds (JVM running for 10.983)
+2019-12-22 00:02:10 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:02:10 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:02:10 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=5dfe4b80cbe0a51268ac12c4, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=Done, categoryName=Final Test]],{}>
+2019-12-22 00:02:10 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:02:10 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:02:10 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:02:10 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=5dfe4b80cbe0a51268ac12c4, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=Done, categoryName=Final Test]],{}>
+2019-12-22 00:02:10 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:02:18 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:02:18 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:02:18 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=5dfe4b80cbe0a51268ac12c4, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=Done, categoryName=Final Test]],{}>
+2019-12-22 00:02:18 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:02:30 [http-nio-8083-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:02:30 [http-nio-8083-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:02:30 [http-nio-8083-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<201 Created,Created,{}>
+2019-12-22 00:02:30 [http-nio-8083-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:02:30 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:02:30 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:02:30 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=5dfe4b80cbe0a51268ac12c4, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=Done, categoryName=Final Test]],{}>
+2019-12-22 00:02:30 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:04:26 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:04:26 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:04:26 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe4b80cbe0a51268ac12c4, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=Done, categoryName=Final Test],{}>
+2019-12-22 00:04:26 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:04:26 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:04:26 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:04:26 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe4b80cbe0a51268ac12c4, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=Done, categoryName=Final Test],{}>
+2019-12-22 00:04:26 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:04:35 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:04:35 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:04:35 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=5dfe4b80cbe0a51268ac12c4, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=Done, categoryName=Final Test]],{}>
+2019-12-22 00:04:35 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:04:40 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:04:40 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:04:40 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<201 Created,Created,{}>
+2019-12-22 00:04:40 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:04:41 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:04:41 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:04:41 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=5dfe4b80cbe0a51268ac12c4, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=Done, categoryName=Final Test]],{}>
+2019-12-22 00:04:41 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:05:51 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:05:51 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:05:51 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=5dfe4b80cbe0a51268ac12c4, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=Done, categoryName=Final Test]],{}>
+2019-12-22 00:05:51 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:05:51 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:05:51 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:05:51 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=5dfe4b80cbe0a51268ac12c4, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=Done, categoryName=Final Test]],{}>
+2019-12-22 00:05:51 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:07:04 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:07:04 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:07:04 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe4b80cbe0a51268ac12c4, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=Done, categoryName=Final Test],{}>
+2019-12-22 00:07:04 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:07:04 [http-nio-8083-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:07:04 [http-nio-8083-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:07:04 [http-nio-8083-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe4b80cbe0a51268ac12c4, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=Done, categoryName=Final Test],{}>
+2019-12-22 00:07:04 [http-nio-8083-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:07:05 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:07:05 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:07:05 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Deleted Successfully,{}>
+2019-12-22 00:07:05 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:07:05 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:07:05 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:07:05 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[],{}>
+2019-12-22 00:07:05 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:07:13 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:07:13 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:07:13 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:07:13 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:E11000 duplicate key error collection: keepnote.category index: _id_ dup key: { _id: "" }; nested exception is com.mongodb.MongoWriteException: E11000 duplicate key error collection: keepnote.category index: _id_ dup key: { _id: "" }
+2019-12-22 00:07:53 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:07:53 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:07:53 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[],{}>
+2019-12-22 00:07:53 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:07:53 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:07:53 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:07:53 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[],{}>
+2019-12-22 00:07:53 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:07:56 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:07:56 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:07:56 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[],{}>
+2019-12-22 00:07:56 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:08:00 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:08:00 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:08:00 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:08:00 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:E11000 duplicate key error collection: keepnote.category index: _id_ dup key: { _id: "" }; nested exception is com.mongodb.MongoWriteException: E11000 duplicate key error collection: keepnote.category index: _id_ dup key: { _id: "" }
+2019-12-22 00:09:39 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:09:39 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:09:39 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[],{}>
+2019-12-22 00:09:39 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:09:39 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:09:39 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:09:39 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[],{}>
+2019-12-22 00:09:39 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:09:47 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:09:47 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:09:47 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<201 Created,Created,{}>
+2019-12-22 00:09:47 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:09:47 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:09:47 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:09:47 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[],{}>
+2019-12-22 00:09:47 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:11:31 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:11:31 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:11:31 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[],{}>
+2019-12-22 00:11:31 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:11:31 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:11:31 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:11:31 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[],{}>
+2019-12-22 00:11:31 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:12:06 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:12:06 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:12:06 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[],{}>
+2019-12-22 00:12:06 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:12:10 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:12:10 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:12:10 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<201 Created,Created,{}>
+2019-12-22 00:12:10 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:12:10 [http-nio-8083-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:12:10 [http-nio-8083-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:12:10 [http-nio-8083-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[],{}>
+2019-12-22 00:12:10 [http-nio-8083-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:12:40 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:12:40 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:12:40 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[],{}>
+2019-12-22 00:12:40 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning

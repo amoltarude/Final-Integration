@@ -1,0 +1,340 @@
+2019-12-22 00:15:12 [main] INFO  c.s.k.CategoryServiceApplication -
+				Starting CategoryServiceApplication on DELL-PC with PID 22976 (started by DELL in D:\Final Integration\REST\KeepNote-Step6-Boilerplate\CategoryService)
+2019-12-22 00:15:12 [main] DEBUG c.s.k.CategoryServiceApplication -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-12-22 00:15:12 [main] INFO  c.s.k.CategoryServiceApplication -
+				No active profile set, falling back to default profiles: default
+2019-12-22 00:15:15 [localhost-startStop-1] DEBUG c.s.keepnote.jwtfilter.JwtFilter -
+				Initializing filter 'jwtFilter'
+2019-12-22 00:15:15 [localhost-startStop-1] DEBUG c.s.keepnote.jwtfilter.JwtFilter -
+				Filter 'jwtFilter' configured successfully
+2019-12-22 00:15:20 [main] INFO  c.s.k.CategoryServiceApplication -
+				Started CategoryServiceApplication in 7.972 seconds (JVM running for 9.717)
+2019-12-22 00:15:40 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:15:40 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:15:40 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=5dfe5ee1cbe0a51268ac12c5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=cat1 desc, categoryName=cat1], Category [id=5dfe5f18cbe0a51268ac12c6, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asasas], Category [id=5dfe5f31cbe0a51268ac12c7, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asas], Category [id=5dfe5f56cbe0a51268ac12c8, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasasas, categoryName=asas], Category [id=5dfe6004cbe0a51268ac12c9, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XZZX, categoryName=XX], Category [id=5dfe60cbcbe0a51268ac12ca, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZ, categoryName=XZXX], Category [id=5dfe634ccbe0a53f88e9e391, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=test, categoryName=test], Category [id=5dfe636acbe0a53f88e9e392, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=zczczczc, categoryName=zczczczc], Category [id=5dfe638acbe0a53f88e9e393, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XXXXX, categoryName=XXXX], Category [id=5dfe649ccbe0a53f88e9e394, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZX, categoryName=zxzxZXx], Category [id=5dfe64d5cbe0a53f88e9e395, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sdfghjklkjhgfdsfg, categoryName=asdfghj], Category [id=5dfe653ecbe0a540e4fa4ff2, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasasa, categoryName=sasas], Category [id=5dfe65c0cbe0a540e4fa4ff3, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZX, categoryName=ZXZX], Category [id=5dfe66f3cbe0a540e4fa4ff4, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZZZ, categoryName=xZZ], Category [id=5dfe6782cbe0a540e4fa4ff5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasas, categoryName=asas]],{}>
+2019-12-22 00:15:40 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:15:40 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:15:40 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:15:40 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=5dfe5ee1cbe0a51268ac12c5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=cat1 desc, categoryName=cat1], Category [id=5dfe5f18cbe0a51268ac12c6, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asasas], Category [id=5dfe5f31cbe0a51268ac12c7, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asas], Category [id=5dfe5f56cbe0a51268ac12c8, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasasas, categoryName=asas], Category [id=5dfe6004cbe0a51268ac12c9, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XZZX, categoryName=XX], Category [id=5dfe60cbcbe0a51268ac12ca, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZ, categoryName=XZXX], Category [id=5dfe634ccbe0a53f88e9e391, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=test, categoryName=test], Category [id=5dfe636acbe0a53f88e9e392, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=zczczczc, categoryName=zczczczc], Category [id=5dfe638acbe0a53f88e9e393, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XXXXX, categoryName=XXXX], Category [id=5dfe649ccbe0a53f88e9e394, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZX, categoryName=zxzxZXx], Category [id=5dfe64d5cbe0a53f88e9e395, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sdfghjklkjhgfdsfg, categoryName=asdfghj], Category [id=5dfe653ecbe0a540e4fa4ff2, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasasa, categoryName=sasas], Category [id=5dfe65c0cbe0a540e4fa4ff3, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZX, categoryName=ZXZX], Category [id=5dfe66f3cbe0a540e4fa4ff4, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZZZ, categoryName=xZZ], Category [id=5dfe6782cbe0a540e4fa4ff5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasas, categoryName=asas]],{}>
+2019-12-22 00:15:40 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:15:42 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:15:42 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:15:42 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe64d5cbe0a53f88e9e395, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sdfghjklkjhgfdsfg, categoryName=asdfghj],{}>
+2019-12-22 00:15:42 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:15:42 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:15:42 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:15:42 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe64d5cbe0a53f88e9e395, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sdfghjklkjhgfdsfg, categoryName=asdfghj],{}>
+2019-12-22 00:15:42 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:16:16 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:16:16 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:16:16 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=5dfe5ee1cbe0a51268ac12c5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=cat1 desc, categoryName=cat1], Category [id=5dfe5f18cbe0a51268ac12c6, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asasas], Category [id=5dfe5f31cbe0a51268ac12c7, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asas], Category [id=5dfe5f56cbe0a51268ac12c8, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasasas, categoryName=asas], Category [id=5dfe6004cbe0a51268ac12c9, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XZZX, categoryName=XX], Category [id=5dfe60cbcbe0a51268ac12ca, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZ, categoryName=XZXX], Category [id=5dfe634ccbe0a53f88e9e391, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=test, categoryName=test], Category [id=5dfe636acbe0a53f88e9e392, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=zczczczc, categoryName=zczczczc], Category [id=5dfe638acbe0a53f88e9e393, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XXXXX, categoryName=XXXX], Category [id=5dfe649ccbe0a53f88e9e394, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZX, categoryName=zxzxZXx], Category [id=5dfe64d5cbe0a53f88e9e395, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sdfghjklkjhgfdsfg, categoryName=asdfghj], Category [id=5dfe653ecbe0a540e4fa4ff2, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasasa, categoryName=sasas], Category [id=5dfe65c0cbe0a540e4fa4ff3, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZX, categoryName=ZXZX], Category [id=5dfe66f3cbe0a540e4fa4ff4, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZZZ, categoryName=xZZ], Category [id=5dfe6782cbe0a540e4fa4ff5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasas, categoryName=asas]],{}>
+2019-12-22 00:16:16 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:16:16 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:16:16 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:16:16 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=5dfe5ee1cbe0a51268ac12c5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=cat1 desc, categoryName=cat1], Category [id=5dfe5f18cbe0a51268ac12c6, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asasas], Category [id=5dfe5f31cbe0a51268ac12c7, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asas], Category [id=5dfe5f56cbe0a51268ac12c8, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasasas, categoryName=asas], Category [id=5dfe6004cbe0a51268ac12c9, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XZZX, categoryName=XX], Category [id=5dfe60cbcbe0a51268ac12ca, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZ, categoryName=XZXX], Category [id=5dfe634ccbe0a53f88e9e391, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=test, categoryName=test], Category [id=5dfe636acbe0a53f88e9e392, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=zczczczc, categoryName=zczczczc], Category [id=5dfe638acbe0a53f88e9e393, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XXXXX, categoryName=XXXX], Category [id=5dfe649ccbe0a53f88e9e394, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZX, categoryName=zxzxZXx], Category [id=5dfe64d5cbe0a53f88e9e395, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sdfghjklkjhgfdsfg, categoryName=asdfghj], Category [id=5dfe653ecbe0a540e4fa4ff2, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasasa, categoryName=sasas], Category [id=5dfe65c0cbe0a540e4fa4ff3, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZX, categoryName=ZXZX], Category [id=5dfe66f3cbe0a540e4fa4ff4, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZZZ, categoryName=xZZ], Category [id=5dfe6782cbe0a540e4fa4ff5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasas, categoryName=asas]],{}>
+2019-12-22 00:16:16 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:16:19 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:16:19 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:16:19 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe5ee1cbe0a51268ac12c5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=cat1 desc, categoryName=cat1],{}>
+2019-12-22 00:16:19 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:16:19 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:16:19 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:16:19 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe5ee1cbe0a51268ac12c5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=cat1 desc, categoryName=cat1],{}>
+2019-12-22 00:16:19 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:16:21 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:16:21 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:16:21 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe5f56cbe0a51268ac12c8, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasasas, categoryName=asas],{}>
+2019-12-22 00:16:21 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:16:21 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:16:21 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:16:21 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe5f56cbe0a51268ac12c8, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasasas, categoryName=asas],{}>
+2019-12-22 00:16:21 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:16:24 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:16:24 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:16:24 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe5ee1cbe0a51268ac12c5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=cat1 desc, categoryName=cat1],{}>
+2019-12-22 00:16:24 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:16:24 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:16:24 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:16:24 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe5ee1cbe0a51268ac12c5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=cat1 desc, categoryName=cat1],{}>
+2019-12-22 00:16:24 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:16:27 [http-nio-8083-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:16:27 [http-nio-8083-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:16:27 [http-nio-8083-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe5f31cbe0a51268ac12c7, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asas],{}>
+2019-12-22 00:16:27 [http-nio-8083-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:16:27 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:16:27 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:16:27 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe5f31cbe0a51268ac12c7, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asas],{}>
+2019-12-22 00:16:27 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:16:29 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:16:29 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:16:29 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe5f56cbe0a51268ac12c8, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasasas, categoryName=asas],{}>
+2019-12-22 00:16:29 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:16:29 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:16:29 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:16:29 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe5f56cbe0a51268ac12c8, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasasas, categoryName=asas],{}>
+2019-12-22 00:16:29 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:16:31 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:16:31 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:16:31 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe636acbe0a53f88e9e392, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=zczczczc, categoryName=zczczczc],{}>
+2019-12-22 00:16:31 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:16:31 [http-nio-8083-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:16:31 [http-nio-8083-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:16:31 [http-nio-8083-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe636acbe0a53f88e9e392, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=zczczczc, categoryName=zczczczc],{}>
+2019-12-22 00:16:31 [http-nio-8083-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:16:34 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:16:34 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:16:34 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=5dfe5ee1cbe0a51268ac12c5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=cat1 desc, categoryName=cat1], Category [id=5dfe5f18cbe0a51268ac12c6, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asasas], Category [id=5dfe5f31cbe0a51268ac12c7, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asas], Category [id=5dfe5f56cbe0a51268ac12c8, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasasas, categoryName=asas], Category [id=5dfe6004cbe0a51268ac12c9, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XZZX, categoryName=XX], Category [id=5dfe60cbcbe0a51268ac12ca, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZ, categoryName=XZXX], Category [id=5dfe634ccbe0a53f88e9e391, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=test, categoryName=test], Category [id=5dfe636acbe0a53f88e9e392, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=zczczczc, categoryName=zczczczc], Category [id=5dfe638acbe0a53f88e9e393, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XXXXX, categoryName=XXXX], Category [id=5dfe649ccbe0a53f88e9e394, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZX, categoryName=zxzxZXx], Category [id=5dfe64d5cbe0a53f88e9e395, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sdfghjklkjhgfdsfg, categoryName=asdfghj], Category [id=5dfe653ecbe0a540e4fa4ff2, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasasa, categoryName=sasas], Category [id=5dfe65c0cbe0a540e4fa4ff3, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZX, categoryName=ZXZX], Category [id=5dfe66f3cbe0a540e4fa4ff4, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZZZ, categoryName=xZZ], Category [id=5dfe6782cbe0a540e4fa4ff5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasas, categoryName=asas]],{}>
+2019-12-22 00:16:34 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:17:24 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:17:24 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:17:24 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=5dfe5ee1cbe0a51268ac12c5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=cat1 desc, categoryName=cat1], Category [id=5dfe5f18cbe0a51268ac12c6, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asasas], Category [id=5dfe5f31cbe0a51268ac12c7, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asas], Category [id=5dfe5f56cbe0a51268ac12c8, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasasas, categoryName=asas], Category [id=5dfe6004cbe0a51268ac12c9, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XZZX, categoryName=XX], Category [id=5dfe60cbcbe0a51268ac12ca, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZ, categoryName=XZXX], Category [id=5dfe634ccbe0a53f88e9e391, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=test, categoryName=test], Category [id=5dfe636acbe0a53f88e9e392, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=zczczczc, categoryName=zczczczc], Category [id=5dfe638acbe0a53f88e9e393, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XXXXX, categoryName=XXXX], Category [id=5dfe649ccbe0a53f88e9e394, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZX, categoryName=zxzxZXx], Category [id=5dfe64d5cbe0a53f88e9e395, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sdfghjklkjhgfdsfg, categoryName=asdfghj], Category [id=5dfe653ecbe0a540e4fa4ff2, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasasa, categoryName=sasas], Category [id=5dfe65c0cbe0a540e4fa4ff3, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZX, categoryName=ZXZX], Category [id=5dfe66f3cbe0a540e4fa4ff4, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZZZ, categoryName=xZZ], Category [id=5dfe6782cbe0a540e4fa4ff5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasas, categoryName=asas]],{}>
+2019-12-22 00:17:24 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:17:24 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:17:24 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:17:24 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=5dfe5ee1cbe0a51268ac12c5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=cat1 desc, categoryName=cat1], Category [id=5dfe5f18cbe0a51268ac12c6, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asasas], Category [id=5dfe5f31cbe0a51268ac12c7, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asas], Category [id=5dfe5f56cbe0a51268ac12c8, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasasas, categoryName=asas], Category [id=5dfe6004cbe0a51268ac12c9, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XZZX, categoryName=XX], Category [id=5dfe60cbcbe0a51268ac12ca, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZ, categoryName=XZXX], Category [id=5dfe634ccbe0a53f88e9e391, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=test, categoryName=test], Category [id=5dfe636acbe0a53f88e9e392, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=zczczczc, categoryName=zczczczc], Category [id=5dfe638acbe0a53f88e9e393, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XXXXX, categoryName=XXXX], Category [id=5dfe649ccbe0a53f88e9e394, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZX, categoryName=zxzxZXx], Category [id=5dfe64d5cbe0a53f88e9e395, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sdfghjklkjhgfdsfg, categoryName=asdfghj], Category [id=5dfe653ecbe0a540e4fa4ff2, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasasa, categoryName=sasas], Category [id=5dfe65c0cbe0a540e4fa4ff3, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZX, categoryName=ZXZX], Category [id=5dfe66f3cbe0a540e4fa4ff4, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZZZ, categoryName=xZZ], Category [id=5dfe6782cbe0a540e4fa4ff5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasas, categoryName=asas]],{}>
+2019-12-22 00:17:24 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:17:26 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:17:26 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:17:26 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=5dfe5ee1cbe0a51268ac12c5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=cat1 desc, categoryName=cat1], Category [id=5dfe5f18cbe0a51268ac12c6, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asasas], Category [id=5dfe5f31cbe0a51268ac12c7, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asas], Category [id=5dfe5f56cbe0a51268ac12c8, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasasas, categoryName=asas], Category [id=5dfe6004cbe0a51268ac12c9, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XZZX, categoryName=XX], Category [id=5dfe60cbcbe0a51268ac12ca, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZ, categoryName=XZXX], Category [id=5dfe634ccbe0a53f88e9e391, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=test, categoryName=test], Category [id=5dfe636acbe0a53f88e9e392, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=zczczczc, categoryName=zczczczc], Category [id=5dfe638acbe0a53f88e9e393, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XXXXX, categoryName=XXXX], Category [id=5dfe649ccbe0a53f88e9e394, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZX, categoryName=zxzxZXx], Category [id=5dfe64d5cbe0a53f88e9e395, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sdfghjklkjhgfdsfg, categoryName=asdfghj], Category [id=5dfe653ecbe0a540e4fa4ff2, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasasa, categoryName=sasas], Category [id=5dfe65c0cbe0a540e4fa4ff3, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZX, categoryName=ZXZX], Category [id=5dfe66f3cbe0a540e4fa4ff4, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZZZ, categoryName=xZZ], Category [id=5dfe6782cbe0a540e4fa4ff5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasas, categoryName=asas]],{}>
+2019-12-22 00:17:26 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:17:30 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:17:30 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:17:30 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=5dfe5ee1cbe0a51268ac12c5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=cat1 desc, categoryName=cat1], Category [id=5dfe5f18cbe0a51268ac12c6, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asasas], Category [id=5dfe5f31cbe0a51268ac12c7, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asas], Category [id=5dfe5f56cbe0a51268ac12c8, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasasas, categoryName=asas], Category [id=5dfe6004cbe0a51268ac12c9, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XZZX, categoryName=XX], Category [id=5dfe60cbcbe0a51268ac12ca, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZ, categoryName=XZXX], Category [id=5dfe634ccbe0a53f88e9e391, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=test, categoryName=test], Category [id=5dfe636acbe0a53f88e9e392, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=zczczczc, categoryName=zczczczc], Category [id=5dfe638acbe0a53f88e9e393, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XXXXX, categoryName=XXXX], Category [id=5dfe649ccbe0a53f88e9e394, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZX, categoryName=zxzxZXx], Category [id=5dfe64d5cbe0a53f88e9e395, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sdfghjklkjhgfdsfg, categoryName=asdfghj], Category [id=5dfe653ecbe0a540e4fa4ff2, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasasa, categoryName=sasas], Category [id=5dfe65c0cbe0a540e4fa4ff3, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZX, categoryName=ZXZX], Category [id=5dfe66f3cbe0a540e4fa4ff4, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZZZ, categoryName=xZZ], Category [id=5dfe6782cbe0a540e4fa4ff5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasas, categoryName=asas]],{}>
+2019-12-22 00:17:30 [http-nio-8083-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:17:31 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:17:31 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:17:31 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe5ee1cbe0a51268ac12c5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=cat1 desc, categoryName=cat1],{}>
+2019-12-22 00:17:31 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:17:31 [http-nio-8083-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:17:31 [http-nio-8083-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:17:31 [http-nio-8083-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe5ee1cbe0a51268ac12c5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=cat1 desc, categoryName=cat1],{}>
+2019-12-22 00:17:31 [http-nio-8083-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:17:34 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:17:34 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:17:34 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe60cbcbe0a51268ac12ca, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZ, categoryName=XZXX],{}>
+2019-12-22 00:17:34 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:17:34 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:17:34 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:17:34 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe60cbcbe0a51268ac12ca, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZ, categoryName=XZXX],{}>
+2019-12-22 00:17:34 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:17:36 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:17:36 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:17:36 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe636acbe0a53f88e9e392, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=zczczczc, categoryName=zczczczc],{}>
+2019-12-22 00:17:36 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:17:36 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:17:36 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:17:36 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe636acbe0a53f88e9e392, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=zczczczc, categoryName=zczczczc],{}>
+2019-12-22 00:17:36 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:17:37 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:17:37 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:17:37 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Deleted Successfully,{}>
+2019-12-22 00:17:37 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:17:37 [http-nio-8083-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:17:37 [http-nio-8083-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:17:37 [http-nio-8083-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=5dfe5ee1cbe0a51268ac12c5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=cat1 desc, categoryName=cat1], Category [id=5dfe5f18cbe0a51268ac12c6, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asasas], Category [id=5dfe5f31cbe0a51268ac12c7, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asas], Category [id=5dfe5f56cbe0a51268ac12c8, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasasas, categoryName=asas], Category [id=5dfe6004cbe0a51268ac12c9, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XZZX, categoryName=XX], Category [id=5dfe60cbcbe0a51268ac12ca, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZ, categoryName=XZXX], Category [id=5dfe634ccbe0a53f88e9e391, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=test, categoryName=test], Category [id=5dfe638acbe0a53f88e9e393, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XXXXX, categoryName=XXXX], Category [id=5dfe649ccbe0a53f88e9e394, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZX, categoryName=zxzxZXx], Category [id=5dfe64d5cbe0a53f88e9e395, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sdfghjklkjhgfdsfg, categoryName=asdfghj], Category [id=5dfe653ecbe0a540e4fa4ff2, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasasa, categoryName=sasas], Category [id=5dfe65c0cbe0a540e4fa4ff3, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZX, categoryName=ZXZX], Category [id=5dfe66f3cbe0a540e4fa4ff4, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZZZ, categoryName=xZZ], Category [id=5dfe6782cbe0a540e4fa4ff5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasas, categoryName=asas]],{}>
+2019-12-22 00:17:37 [http-nio-8083-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:17:39 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:17:39 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:17:39 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe634ccbe0a53f88e9e391, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=test, categoryName=test],{}>
+2019-12-22 00:17:39 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:17:39 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:17:39 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:17:39 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfe634ccbe0a53f88e9e391, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=test, categoryName=test],{}>
+2019-12-22 00:17:39 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:17:39 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:17:39 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:17:39 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Deleted Successfully,{}>
+2019-12-22 00:17:39 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:17:39 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:17:39 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:17:39 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=5dfe5ee1cbe0a51268ac12c5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=cat1 desc, categoryName=cat1], Category [id=5dfe5f18cbe0a51268ac12c6, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asasas], Category [id=5dfe5f31cbe0a51268ac12c7, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asas], Category [id=5dfe5f56cbe0a51268ac12c8, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasasas, categoryName=asas], Category [id=5dfe6004cbe0a51268ac12c9, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XZZX, categoryName=XX], Category [id=5dfe60cbcbe0a51268ac12ca, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZ, categoryName=XZXX], Category [id=5dfe638acbe0a53f88e9e393, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XXXXX, categoryName=XXXX], Category [id=5dfe649ccbe0a53f88e9e394, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZX, categoryName=zxzxZXx], Category [id=5dfe64d5cbe0a53f88e9e395, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sdfghjklkjhgfdsfg, categoryName=asdfghj], Category [id=5dfe653ecbe0a540e4fa4ff2, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasasa, categoryName=sasas], Category [id=5dfe65c0cbe0a540e4fa4ff3, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZX, categoryName=ZXZX], Category [id=5dfe66f3cbe0a540e4fa4ff4, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZZZ, categoryName=xZZ], Category [id=5dfe6782cbe0a540e4fa4ff5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasas, categoryName=asas]],{}>
+2019-12-22 00:17:39 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:18:32 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:18:32 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:18:32 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=5dfe5ee1cbe0a51268ac12c5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=cat1 desc, categoryName=cat1], Category [id=5dfe5f18cbe0a51268ac12c6, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asasas], Category [id=5dfe5f31cbe0a51268ac12c7, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asas], Category [id=5dfe5f56cbe0a51268ac12c8, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasasas, categoryName=asas], Category [id=5dfe6004cbe0a51268ac12c9, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XZZX, categoryName=XX], Category [id=5dfe60cbcbe0a51268ac12ca, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZ, categoryName=XZXX], Category [id=5dfe638acbe0a53f88e9e393, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XXXXX, categoryName=XXXX], Category [id=5dfe649ccbe0a53f88e9e394, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZX, categoryName=zxzxZXx], Category [id=5dfe64d5cbe0a53f88e9e395, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sdfghjklkjhgfdsfg, categoryName=asdfghj], Category [id=5dfe653ecbe0a540e4fa4ff2, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasasa, categoryName=sasas], Category [id=5dfe65c0cbe0a540e4fa4ff3, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZX, categoryName=ZXZX], Category [id=5dfe66f3cbe0a540e4fa4ff4, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZZZ, categoryName=xZZ], Category [id=5dfe6782cbe0a540e4fa4ff5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasas, categoryName=asas]],{}>
+2019-12-22 00:18:32 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:18:34 [http-nio-8083-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:18:34 [http-nio-8083-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:18:34 [http-nio-8083-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=5dfe5ee1cbe0a51268ac12c5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=cat1 desc, categoryName=cat1], Category [id=5dfe5f18cbe0a51268ac12c6, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asasas], Category [id=5dfe5f31cbe0a51268ac12c7, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asas], Category [id=5dfe5f56cbe0a51268ac12c8, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasasas, categoryName=asas], Category [id=5dfe6004cbe0a51268ac12c9, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XZZX, categoryName=XX], Category [id=5dfe60cbcbe0a51268ac12ca, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZ, categoryName=XZXX], Category [id=5dfe638acbe0a53f88e9e393, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XXXXX, categoryName=XXXX], Category [id=5dfe649ccbe0a53f88e9e394, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZX, categoryName=zxzxZXx], Category [id=5dfe64d5cbe0a53f88e9e395, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sdfghjklkjhgfdsfg, categoryName=asdfghj], Category [id=5dfe653ecbe0a540e4fa4ff2, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasasa, categoryName=sasas], Category [id=5dfe65c0cbe0a540e4fa4ff3, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZX, categoryName=ZXZX], Category [id=5dfe66f3cbe0a540e4fa4ff4, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZZZ, categoryName=xZZ], Category [id=5dfe6782cbe0a540e4fa4ff5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasas, categoryName=asas]],{}>
+2019-12-22 00:18:34 [http-nio-8083-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:18:46 [http-nio-8083-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:18:46 [http-nio-8083-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:18:46 [http-nio-8083-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=5dfe5ee1cbe0a51268ac12c5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=cat1 desc, categoryName=cat1], Category [id=5dfe5f18cbe0a51268ac12c6, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asasas], Category [id=5dfe5f31cbe0a51268ac12c7, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asas], Category [id=5dfe5f56cbe0a51268ac12c8, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasasas, categoryName=asas], Category [id=5dfe6004cbe0a51268ac12c9, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XZZX, categoryName=XX], Category [id=5dfe60cbcbe0a51268ac12ca, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZ, categoryName=XZXX], Category [id=5dfe638acbe0a53f88e9e393, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XXXXX, categoryName=XXXX], Category [id=5dfe649ccbe0a53f88e9e394, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZX, categoryName=zxzxZXx], Category [id=5dfe64d5cbe0a53f88e9e395, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sdfghjklkjhgfdsfg, categoryName=asdfghj], Category [id=5dfe653ecbe0a540e4fa4ff2, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasasa, categoryName=sasas], Category [id=5dfe65c0cbe0a540e4fa4ff3, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZX, categoryName=ZXZX], Category [id=5dfe66f3cbe0a540e4fa4ff4, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZZZ, categoryName=xZZ], Category [id=5dfe6782cbe0a540e4fa4ff5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasas, categoryName=asas]],{}>
+2019-12-22 00:18:46 [http-nio-8083-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:19:43 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:19:43 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:19:43 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=5dfe5ee1cbe0a51268ac12c5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=cat1 desc, categoryName=cat1], Category [id=5dfe5f18cbe0a51268ac12c6, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asasas], Category [id=5dfe5f31cbe0a51268ac12c7, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asas], Category [id=5dfe5f56cbe0a51268ac12c8, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasasas, categoryName=asas], Category [id=5dfe6004cbe0a51268ac12c9, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XZZX, categoryName=XX], Category [id=5dfe60cbcbe0a51268ac12ca, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZ, categoryName=XZXX], Category [id=5dfe638acbe0a53f88e9e393, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XXXXX, categoryName=XXXX], Category [id=5dfe649ccbe0a53f88e9e394, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZX, categoryName=zxzxZXx], Category [id=5dfe64d5cbe0a53f88e9e395, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sdfghjklkjhgfdsfg, categoryName=asdfghj], Category [id=5dfe653ecbe0a540e4fa4ff2, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasasa, categoryName=sasas], Category [id=5dfe65c0cbe0a540e4fa4ff3, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZX, categoryName=ZXZX], Category [id=5dfe66f3cbe0a540e4fa4ff4, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZZZ, categoryName=xZZ], Category [id=5dfe6782cbe0a540e4fa4ff5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasas, categoryName=asas]],{}>
+2019-12-22 00:19:43 [http-nio-8083-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:19:48 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:19:48 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:19:48 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=5dfe5ee1cbe0a51268ac12c5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=cat1 desc, categoryName=cat1], Category [id=5dfe5f18cbe0a51268ac12c6, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asasas], Category [id=5dfe5f31cbe0a51268ac12c7, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asas], Category [id=5dfe5f56cbe0a51268ac12c8, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasasas, categoryName=asas], Category [id=5dfe6004cbe0a51268ac12c9, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XZZX, categoryName=XX], Category [id=5dfe60cbcbe0a51268ac12ca, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZ, categoryName=XZXX], Category [id=5dfe638acbe0a53f88e9e393, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XXXXX, categoryName=XXXX], Category [id=5dfe649ccbe0a53f88e9e394, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZX, categoryName=zxzxZXx], Category [id=5dfe64d5cbe0a53f88e9e395, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sdfghjklkjhgfdsfg, categoryName=asdfghj], Category [id=5dfe653ecbe0a540e4fa4ff2, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasasa, categoryName=sasas], Category [id=5dfe65c0cbe0a540e4fa4ff3, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZX, categoryName=ZXZX], Category [id=5dfe66f3cbe0a540e4fa4ff4, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZZZ, categoryName=xZZ], Category [id=5dfe6782cbe0a540e4fa4ff5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasas, categoryName=asas]],{}>
+2019-12-22 00:19:48 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-22 00:19:48 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-22 00:19:48 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-22 00:19:48 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=5dfe5ee1cbe0a51268ac12c5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=cat1 desc, categoryName=cat1], Category [id=5dfe5f18cbe0a51268ac12c6, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asasas], Category [id=5dfe5f31cbe0a51268ac12c7, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasas, categoryName=asas], Category [id=5dfe5f56cbe0a51268ac12c8, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=asasasas, categoryName=asas], Category [id=5dfe6004cbe0a51268ac12c9, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XZZX, categoryName=XX], Category [id=5dfe60cbcbe0a51268ac12ca, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZ, categoryName=XZXX], Category [id=5dfe638acbe0a53f88e9e393, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=XXXXX, categoryName=XXXX], Category [id=5dfe649ccbe0a53f88e9e394, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZXZXZX, categoryName=zxzxZXx], Category [id=5dfe64d5cbe0a53f88e9e395, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sdfghjklkjhgfdsfg, categoryName=asdfghj], Category [id=5dfe653ecbe0a540e4fa4ff2, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasasa, categoryName=sasas], Category [id=5dfe65c0cbe0a540e4fa4ff3, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZXZX, categoryName=ZXZX], Category [id=5dfe66f3cbe0a540e4fa4ff4, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=ZZZ, categoryName=xZZ], Category [id=5dfe6782cbe0a540e4fa4ff5, categoryCreationDate=null, categoryCreatedBy=admin, categoryDescription=sasas, categoryName=asas]],{}>
+2019-12-22 00:19:48 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning

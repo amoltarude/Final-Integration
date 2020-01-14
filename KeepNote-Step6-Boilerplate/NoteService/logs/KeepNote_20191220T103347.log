@@ -1,0 +1,596 @@
+2019-12-20 10:33:47 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				Starting NoteServiceApplication on DELL-PC with PID 16728 (started by DELL in D:\Final Integration\REST\KeepNote-Step6-Boilerplate\NoteService)
+2019-12-20 10:33:48 [main] DEBUG c.s.keepnote.NoteServiceApplication -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-12-20 10:33:48 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				No active profile set, falling back to default profiles: default
+2019-12-20 10:33:51 [localhost-startStop-1] DEBUG c.s.keepnote.jwtfilter.JwtFilter -
+				Initializing filter 'jwtFilter'
+2019-12-20 10:33:51 [localhost-startStop-1] DEBUG c.s.keepnote.jwtfilter.JwtFilter -
+				Filter 'jwtFilter' configured successfully
+2019-12-20 10:33:57 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				Started NoteServiceApplication in 10.241 seconds (JVM running for 12.374)
+2019-12-20 10:35:41 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 10:35:42 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 10:35:42 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 10:35:42 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 10:35:42 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 10:35:42 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 10:35:42 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 10:35:42 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 11:01:32 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 11:01:32 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 11:01:32 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 11:01:32 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 11:01:32 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 11:01:32 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 11:01:32 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 11:01:32 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 11:11:39 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 11:11:39 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 11:11:39 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 11:11:39 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 11:11:39 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 11:11:39 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 11:11:39 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 11:11:39 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 11:12:14 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 11:12:14 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 11:12:14 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 11:12:14 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 11:12:14 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 11:12:14 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 11:12:14 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 11:12:14 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 11:17:28 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 11:17:28 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 11:17:28 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 11:17:28 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 11:17:28 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 11:17:28 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 11:17:28 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 11:17:28 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 13:22:54 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 13:22:54 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 13:22:54 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 13:22:54 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 13:22:54 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 13:22:54 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 13:22:54 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 13:22:54 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 15:15:07 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 15:15:07 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 15:15:07 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 15:15:07 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 15:15:07 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 15:15:07 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 15:15:07 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 15:15:07 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 15:15:25 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 15:15:25 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 15:15:25 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 15:15:25 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 15:15:27 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 15:15:27 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 15:15:27 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 15:15:27 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 15:37:47 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 15:37:47 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 15:37:47 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 15:37:47 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 15:37:47 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 15:37:47 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 15:37:47 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 15:37:47 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 15:42:41 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 15:42:41 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 15:42:41 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 15:42:41 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 15:42:41 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 15:42:41 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 15:42:41 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 15:42:41 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 15:44:09 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 15:44:09 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 15:44:09 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 15:44:09 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 15:44:09 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 15:44:09 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 15:44:09 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 15:44:09 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 15:49:21 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 15:49:21 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 15:49:21 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 15:49:21 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 15:49:21 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 15:49:21 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 15:49:21 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 15:49:21 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 15:56:04 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 15:56:04 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 15:56:04 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 15:56:04 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 15:56:04 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 15:56:04 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 15:56:04 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 15:56:04 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 17:27:50 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 17:27:51 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 17:27:51 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 17:27:51 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 17:27:51 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 17:27:51 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 17:27:51 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 17:27:51 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 17:39:38 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 17:39:38 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 17:39:38 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 17:39:38 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 17:39:38 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 17:39:38 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 17:39:38 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 17:39:38 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-20 17:40:04 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 17:40:05 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 17:40:05 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<201 Created,{}>
+2019-12-20 17:40:05 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 17:40:18 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 17:40:18 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 17:40:18 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@4ac116a8],{}>
+2019-12-20 17:40:18 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 17:40:18 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 17:40:18 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 17:40:18 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@2eda3c85],{}>
+2019-12-20 17:40:18 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 17:43:26 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 17:43:26 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 17:43:26 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@2035d5ea],{}>
+2019-12-20 17:43:26 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 17:43:26 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 17:43:26 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 17:43:26 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@359ae6bc],{}>
+2019-12-20 17:43:26 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 17:45:28 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 17:45:28 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 17:45:28 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@2d96b49a],{}>
+2019-12-20 17:45:28 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 17:45:28 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 17:45:28 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 17:45:28 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@5f241373],{}>
+2019-12-20 17:45:28 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 17:47:31 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 17:47:31 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 17:47:31 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@3298196a],{}>
+2019-12-20 17:47:31 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 17:47:31 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 17:47:31 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 17:47:31 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@106d4753],{}>
+2019-12-20 17:47:31 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 17:57:10 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 17:57:10 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 17:57:10 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@1833e894],{}>
+2019-12-20 17:57:10 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 17:57:10 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 17:57:10 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 17:57:10 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@b1f85bb],{}>
+2019-12-20 17:57:10 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 17:57:30 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 17:57:30 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 17:57:30 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@29ca3982],{}>
+2019-12-20 17:57:30 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 17:57:30 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 17:57:30 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 17:57:30 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@35ebc000],{}>
+2019-12-20 17:57:30 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:04:57 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:04:57 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:04:57 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@453b6192],{}>
+2019-12-20 18:04:57 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:04:57 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:04:57 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:04:57 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@4ec53dbf],{}>
+2019-12-20 18:04:57 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:11:54 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:11:54 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:11:54 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@66546e1c],{}>
+2019-12-20 18:11:54 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:11:54 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:11:54 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:11:54 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@279f7d3c],{}>
+2019-12-20 18:11:54 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:13:04 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:13:04 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:13:04 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@368d9e4],{}>
+2019-12-20 18:13:04 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:13:04 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:13:04 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:13:04 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@7c371023],{}>
+2019-12-20 18:13:04 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:13:41 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:13:41 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:13:41 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@363e014f],{}>
+2019-12-20 18:13:41 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:13:41 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:13:41 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:13:41 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@74bc49c7],{}>
+2019-12-20 18:13:41 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:14:29 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:14:29 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:14:29 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@47a9c96e],{}>
+2019-12-20 18:14:29 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:14:29 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:14:29 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:14:29 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@7a074d01],{}>
+2019-12-20 18:14:29 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:15:37 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:15:37 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:15:37 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@284e1591],{}>
+2019-12-20 18:15:37 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:15:37 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:15:37 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:15:37 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@7b394a75],{}>
+2019-12-20 18:15:37 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:18:07 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:18:07 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:18:07 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@ff8506e],{}>
+2019-12-20 18:18:07 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:18:07 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:18:07 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:18:07 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@5b863e75],{}>
+2019-12-20 18:18:07 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:18:17 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:18:17 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:18:17 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@40f18731],{}>
+2019-12-20 18:18:17 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:18:17 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:18:17 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:18:17 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@2af1b60c],{}>
+2019-12-20 18:18:17 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:20:09 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:20:09 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:20:09 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@54678d0],{}>
+2019-12-20 18:20:09 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:20:09 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:20:09 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:20:09 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@45ce4a9f],{}>
+2019-12-20 18:20:09 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:21:22 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:21:22 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:21:22 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@e7206dd],{}>
+2019-12-20 18:21:22 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:21:22 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:21:22 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:21:22 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@41c9c49d],{}>
+2019-12-20 18:21:22 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:21:51 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:21:51 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:21:51 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<409 Conflict,{}>
+2019-12-20 18:21:51 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:22:37 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:22:37 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:22:37 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<409 Conflict,{}>
+2019-12-20 18:22:37 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:24:11 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:24:11 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:24:11 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@3508cbb8],{}>
+2019-12-20 18:24:11 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:24:12 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:24:12 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:24:12 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@7f6be0f4],{}>
+2019-12-20 18:24:12 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:24:26 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:24:26 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:24:26 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<409 Conflict,{}>
+2019-12-20 18:24:26 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:26:02 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:26:02 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:26:02 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@b0d7d70],{}>
+2019-12-20 18:26:02 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:26:02 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:26:02 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:26:02 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[com.stackroute.keepnote.model.Note@713441ae],{}>
+2019-12-20 18:26:02 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:26:19 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:26:19 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:26:19 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<409 Conflict,{}>
+2019-12-20 18:26:19 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:31:21 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:31:21 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:31:21 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<409 Conflict,{}>
+2019-12-20 18:31:21 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:32:25 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:32:25 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:32:25 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<409 Conflict,{}>
+2019-12-20 18:32:25 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning

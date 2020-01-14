@@ -1,0 +1,100 @@
+2019-12-20 18:32:56 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				Starting NoteServiceApplication on DELL-PC with PID 16944 (started by DELL in D:\Final Integration\REST\KeepNote-Step6-Boilerplate\NoteService)
+2019-12-20 18:32:56 [main] DEBUG c.s.keepnote.NoteServiceApplication -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-12-20 18:32:56 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				No active profile set, falling back to default profiles: default
+2019-12-20 18:32:58 [localhost-startStop-1] DEBUG c.s.keepnote.jwtfilter.JwtFilter -
+				Initializing filter 'jwtFilter'
+2019-12-20 18:32:58 [localhost-startStop-1] DEBUG c.s.keepnote.jwtfilter.JwtFilter -
+				Filter 'jwtFilter' configured successfully
+2019-12-20 18:33:03 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				Started NoteServiceApplication in 6.985 seconds (JVM running for 8.901)
+2019-12-20 18:33:33 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:33:33 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:33:33 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<409 Conflict,{}>
+2019-12-20 18:33:33 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:36:59 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:36:59 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:36:59 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<409 Conflict,{}>
+2019-12-20 18:36:59 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:50:30 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:50:30 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:50:30 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<409 Conflict,{}>
+2019-12-20 18:50:30 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:58:51 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:58:54 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:58:54 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Note [noteId=0, noteTitle=string, noteContent=string, noteStatus=string, noteCreationDate=Fri Dec 20 17:40:04 IST 2019, noteCreatedBy=amolt123, category=com.stackroute.keepnote.model.Category@2b3fc08c, reminders=[com.stackroute.keepnote.model.Reminder@51f0397c]]],{}>
+2019-12-20 18:58:54 [http-nio-8082-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:58:54 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:58:54 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:58:54 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Note [noteId=0, noteTitle=string, noteContent=string, noteStatus=string, noteCreationDate=Fri Dec 20 17:40:04 IST 2019, noteCreatedBy=amolt123, category=com.stackroute.keepnote.model.Category@28aaebc8, reminders=[com.stackroute.keepnote.model.Reminder@266d00ad]]],{}>
+2019-12-20 18:58:54 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 18:59:02 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 18:59:02 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 18:59:02 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<409 Conflict,{}>
+2019-12-20 18:59:02 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 19:00:25 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 19:00:25 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 19:00:25 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<409 Conflict,{}>
+2019-12-20 19:00:25 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 19:02:39 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 19:02:39 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 19:02:39 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<201 Created,{}>
+2019-12-20 19:02:39 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 19:04:56 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 19:04:56 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 19:04:56 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Note [noteId=0, noteTitle=XZxZX, noteContent=ZXZXZX, noteStatus=, noteCreationDate=Fri Dec 20 19:02:39 IST 2019, noteCreatedBy=amolt123, category=com.stackroute.keepnote.model.Category@67500a96, reminders=[com.stackroute.keepnote.model.Reminder@185b591f]]],{}>
+2019-12-20 19:04:56 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 19:04:56 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 19:04:57 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 19:04:57 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Note [noteId=0, noteTitle=XZxZX, noteContent=ZXZXZX, noteStatus=, noteCreationDate=Fri Dec 20 19:02:39 IST 2019, noteCreatedBy=amolt123, category=com.stackroute.keepnote.model.Category@6a292290, reminders=[com.stackroute.keepnote.model.Reminder@6bbfd3ac]]],{}>
+2019-12-20 19:04:57 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 19:05:08 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 19:05:08 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 19:05:08 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<409 Conflict,{}>
+2019-12-20 19:05:08 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning

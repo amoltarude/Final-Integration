@@ -1,0 +1,36 @@
+2019-12-20 19:06:58 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				Starting NoteServiceApplication on DELL-PC with PID 19340 (started by DELL in D:\Final Integration\REST\KeepNote-Step6-Boilerplate\NoteService)
+2019-12-20 19:06:58 [main] DEBUG c.s.keepnote.NoteServiceApplication -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-12-20 19:06:58 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				No active profile set, falling back to default profiles: default
+2019-12-20 19:07:02 [localhost-startStop-1] DEBUG c.s.keepnote.jwtfilter.JwtFilter -
+				Initializing filter 'jwtFilter'
+2019-12-20 19:07:02 [localhost-startStop-1] DEBUG c.s.keepnote.jwtfilter.JwtFilter -
+				Filter 'jwtFilter' configured successfully
+2019-12-20 19:07:08 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				Started NoteServiceApplication in 10.468 seconds (JVM running for 13.791)
+2019-12-20 19:07:17 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 19:08:36 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 19:08:39 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<201 Created,{}>
+2019-12-20 19:08:39 [http-nio-8082-exec-1] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 19:09:12 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 19:09:12 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 19:09:12 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Note [noteId=0, noteTitle=XZxZX, noteContent=ZXZXZX, noteStatus=, noteCreationDate=Fri Dec 20 19:02:39 IST 2019, noteCreatedBy=amolt123, category=Category [categoryId=null, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=zzzzzzzzzz, categoryName=zzzzzzzz], reminders=[Reminder [reminderId=asas, reminderName=asas, reminderDescription=asas, reminderType=null, reminderCreatedBy=amolt123, reminderCreationDate=null]]], Note [noteId=0, noteTitle=ZXZX, noteContent=ZXZXzx, noteStatus=, noteCreationDate=Fri Dec 20 19:07:17 IST 2019, noteCreatedBy=amolt123, category=Category [categoryId=null, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=Tarude, categoryName=Amol], reminders=[Reminder [reminderId=5dfca12bcbe0a54a68103bd1, reminderName=xzx, reminderDescription=zxzxzx, reminderType=zxzx, reminderCreatedBy=amolt123, reminderCreationDate=null]]]],{}>
+2019-12-20 19:09:12 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 19:09:12 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 19:09:12 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 19:09:12 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Note [noteId=0, noteTitle=XZxZX, noteContent=ZXZXZX, noteStatus=, noteCreationDate=Fri Dec 20 19:02:39 IST 2019, noteCreatedBy=amolt123, category=Category [categoryId=null, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=zzzzzzzzzz, categoryName=zzzzzzzz], reminders=[Reminder [reminderId=asas, reminderName=asas, reminderDescription=asas, reminderType=null, reminderCreatedBy=amolt123, reminderCreationDate=null]]], Note [noteId=0, noteTitle=ZXZX, noteContent=ZXZXzx, noteStatus=, noteCreationDate=Fri Dec 20 19:07:17 IST 2019, noteCreatedBy=amolt123, category=Category [categoryId=null, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=Tarude, categoryName=Amol], reminders=[Reminder [reminderId=5dfca12bcbe0a54a68103bd1, reminderName=xzx, reminderDescription=zxzxzx, reminderType=zxzx, reminderCreatedBy=amolt123, reminderCreationDate=null]]]],{}>
+2019-12-20 19:09:12 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning

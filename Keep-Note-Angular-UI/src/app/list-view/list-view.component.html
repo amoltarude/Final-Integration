@@ -1,0 +1,18 @@
+<div class="keep-c-list-container">
+	<label>Not-Started</label>
+	<li *ngFor="let note of notStartedNotes" style="list-style:none;">
+		<app-note [note]="note"></app-note>
+	</li>
+</div>
+<div class="keep-c-list-container">
+	<label>Started</label>
+	<li *ngFor="let note of startedNotes">
+		<app-note [note]="note"></app-note>
+	</li>
+</div>
+<div class="keep-c-list-container">
+	<label>Completed</label>
+	<li *ngFor="let note of completedNotes">
+		<app-note [note]="note"></app-note>
+	</li>
+</div>

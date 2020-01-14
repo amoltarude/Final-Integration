@@ -1,0 +1,39 @@
+<!-- Expansion panel to add new notes -->
+<div class="keep-comp-note-taker-pannel app-note-taker container">
+  <mat-expansion-panel>
+      <mat-expansion-panel-header>
+          <mat-panel-title>
+            Take a reminder
+          </mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="keep-comp-note-taker-wapper container">
+          <!-- Label to display any error messages -->
+          <label *ngIf="errMessage" class="error-message">{{ errMessage }}</label>
+
+          <form novalidate #noteTakerForm="ngForm" (ngSubmit)="addReminder()">
+              <!-- Note fields -->
+              <div class="row">
+                <mat-form-field class="col">
+                    <input name="reminderName"  [(ngModel)] = 'reminder.reminderName'  matInput placeholder="Reminder Name" type = 'text'>
+                </mat-form-field>
+              </div>
+              <div class="row">
+                <mat-form-field class="col">
+                    <input name="reminderType"  [(ngModel)] = 'reminder.reminderType'  matInput placeholder="Reminder Type" type = 'Type'>
+                </mat-form-field>
+              </div>
+              <div class="row">
+                <mat-form-field class="col">
+                    <textarea name="reminderDescription"  [(ngModel)] = 'reminder.reminderDescription' matInput placeholder="Reminder Description"></textarea>
+                </mat-form-field>
+              </div>
+
+              
+              <div class="keep-comp-button row">
+                  <button type="submit" class="col" mat-raised-button color="primary">Done</button>
+              </div>
+          
+          </form>
+      </div>
+    </mat-expansion-panel>
+</div> 

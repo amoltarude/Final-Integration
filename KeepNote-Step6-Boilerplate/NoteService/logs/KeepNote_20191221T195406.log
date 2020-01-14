@@ -1,0 +1,100 @@
+2019-12-21 19:54:07 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				Starting NoteServiceApplication on ip-172-31-42-174 with PID 7887 (/home/ubuntu/FSD/final-integration/KeepNote-Step6-Boilerplate/NoteService/target/classes started by ubuntu in /home/ubuntu/FSD/final-integration/KeepNote-Step6-Boilerplate/NoteService)
+2019-12-21 19:54:07 [main] DEBUG c.s.keepnote.NoteServiceApplication -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-12-21 19:54:07 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				No active profile set, falling back to default profiles: default
+2019-12-21 19:54:09 [localhost-startStop-1] DEBUG c.s.keepnote.jwtfilter.JwtFilter -
+				Initializing filter 'jwtFilter'
+2019-12-21 19:54:09 [localhost-startStop-1] DEBUG c.s.keepnote.jwtfilter.JwtFilter -
+				Filter 'jwtFilter' configured successfully
+2019-12-21 19:54:10 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				Started NoteServiceApplication in 3.947 seconds (JVM running for 4.483)
+2019-12-21 19:56:25 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-21 19:56:25 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-21 19:56:25 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-21 19:56:25 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-21 19:56:25 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-21 19:56:25 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-21 19:56:25 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-21 19:56:25 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-21 19:57:29 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-21 19:57:29 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-21 19:57:29 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-21 19:57:29 [http-nio-8082-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Exception caught:No value present
+2019-12-21 19:58:05 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-21 19:58:05 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-21 19:58:05 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<201 Created,{}>
+2019-12-21 19:58:05 [http-nio-8082-exec-7] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-21 19:58:05 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-21 19:58:05 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-21 19:58:05 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Note [noteId=1, noteTitle=Note 1, noteContent=Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1, noteStatus=started, noteCreationDate=Sat Dec 21 19:58:05 UTC 2019, noteCreatedBy=amolt123, category=Category [id=5dfe7926080a281ea22befb7, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=Category 1, categoryName=Category 1], reminders=[Reminder [reminderId=5dfe7911080a281fcf0603ba, reminderName=Reminder 1, reminderDescription=Reminder 1, reminderType=Reminder 1, reminderCreatedBy=amolt123, reminderCreationDate=null]]]],{}>
+2019-12-21 19:58:05 [http-nio-8082-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-21 19:58:09 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-21 19:58:09 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-21 19:58:09 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Note [noteId=1, noteTitle=Note 1, noteContent=Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1, noteStatus=started, noteCreationDate=Sat Dec 21 19:58:05 UTC 2019, noteCreatedBy=amolt123, category=Category [id=5dfe7926080a281ea22befb7, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=Category 1, categoryName=Category 1], reminders=[Reminder [reminderId=5dfe7911080a281fcf0603ba, reminderName=Reminder 1, reminderDescription=Reminder 1, reminderType=Reminder 1, reminderCreatedBy=amolt123, reminderCreationDate=null]]],{}>
+2019-12-21 19:58:09 [http-nio-8082-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-21 19:58:17 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-21 19:58:17 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-21 19:58:17 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Note [noteId=1, noteTitle=Note 1, noteContent=Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1, noteStatus=completed, noteCreationDate=Sat Dec 21 19:58:05 UTC 2019, noteCreatedBy=amolt123, category=Category [id=5dfe7926080a281ea22befb7, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=Category 1, categoryName=Category 1], reminders=[Reminder [reminderId=5dfe7911080a281fcf0603ba, reminderName=Reminder 1, reminderDescription=Reminder 1, reminderType=Reminder 1, reminderCreatedBy=amolt123, reminderCreationDate=null]]],{}>
+2019-12-21 19:58:17 [http-nio-8082-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-21 19:58:17 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-21 19:58:17 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-21 19:58:17 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Note [noteId=1, noteTitle=Note 1, noteContent=Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1, noteStatus=completed, noteCreationDate=Sat Dec 21 19:58:05 UTC 2019, noteCreatedBy=amolt123, category=Category [id=5dfe7926080a281ea22befb7, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=Category 1, categoryName=Category 1], reminders=[Reminder [reminderId=5dfe7911080a281fcf0603ba, reminderName=Reminder 1, reminderDescription=Reminder 1, reminderType=Reminder 1, reminderCreatedBy=amolt123, reminderCreationDate=null]]]],{}>
+2019-12-21 19:58:17 [http-nio-8082-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-21 19:58:20 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-21 19:58:20 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-21 19:58:20 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Note [noteId=1, noteTitle=Note 1, noteContent=Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1Note 1, noteStatus=completed, noteCreationDate=Sat Dec 21 19:58:05 UTC 2019, noteCreatedBy=amolt123, category=Category [id=5dfe7926080a281ea22befb7, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=Category 1, categoryName=Category 1], reminders=[Reminder [reminderId=5dfe7911080a281fcf0603ba, reminderName=Reminder 1, reminderDescription=Reminder 1, reminderType=Reminder 1, reminderCreatedBy=amolt123, reminderCreationDate=null]]],{}>
+2019-12-21 19:58:20 [http-nio-8082-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-21 19:58:22 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-21 19:58:22 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-21 19:58:22 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Deleted,{}>
+2019-12-21 19:58:22 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-21 19:58:22 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-21 19:58:22 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-21 19:58:22 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[],{}>
+2019-12-21 19:58:22 [http-nio-8082-exec-6] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning

@@ -1,0 +1,80 @@
+<!-- Expansion panel to add new notes -->
+<div class="keep-comp-note-taker-pannel app-note-taker note-container container">
+  <mat-expansion-panel class="note-expansion-panel">
+      <mat-expansion-panel-header >
+          <mat-panel-title>
+              Take a note
+          </mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="keep-comp-note-taker-wapper container">
+          <!-- Label to display any error messages -->
+          <label *ngIf="errMessage" class="error-message">{{ errMessage }}</label>
+
+          <form novalidate #noteTakerForm="ngForm" (ngSubmit)="takeNote()">
+              <!-- Note fields -->
+              <div class="row">
+                <mat-form-field class="col">
+                    <input name="title"  [(ngModel)] = 'note.noteTitle'  matInput placeholder="Note Title" type = 'text'>
+                </mat-form-field>
+
+                <mat-form-field class="col">
+                    <textarea name="text"  [(ngModel)] = 'note.noteContent' matInput placeholder="Note Content"></textarea>
+                </mat-form-field>
+              </div>
+
+              <div class="row">
+                    <!-- Reminder Fields -->
+             
+                <mat-form-field class="col">
+                    <mat-select name="reminderName"  placeholder="Select Reminder"  multiple [(ngModel)]="note.reminders">
+                        <mat-option value="">Select</mat-option>
+                        <mat-option *ngFor="let reminder of reminders" [value]="reminder">
+                            {{ reminder.reminderName }}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+
+                <mat-form-field  class="col">
+                    <mat-select name="categoryName" required placeholder="Select Category" [(ngModel)]="note.category">
+                        <mat-option value="">Select</mat-option>
+                        <mat-option *ngFor="let category of categorys" [value]="category">
+                            {{ category.categoryName }}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>        
+              </div>
+              <div class="row">
+              <div class="col" *ngIf="note.reminders">
+                 <p class="selected-reminertext">Selected Reminders</p> 
+                <p class="selected-reminer" *ngFor="let rem of note.reminders">{{rem.reminderName}} - {{rem.reminderType}} ({{rem.reminderDescription}})</p>
+            </div>
+            <div class="col" >
+                <p class="selected-reminertext">Selected Category</p> 
+               <p class="selected-reminer">{{note.category.categoryName}}</p>
+           </div>
+              <!-- Category fields -->
+          
+       
+              </div>
+              <div class="row">
+                <mat-form-field class="col">
+                    <mat-select name="state"  placeholder="Select Status" [(ngModel)]="note.noteStatus">
+                        <mat-option *ngFor="let state of noteStatus" [value]="state">
+                        {{ state }}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field >
+              </div>
+
+
+
+
+              <div class="keep-comp-button row">
+                  <button class="col" type="submit" mat-raised-button color="primary">Done</button>
+              </div>
+
+          
+          </form>
+      </div>
+    </mat-expansion-panel>
+</div> 

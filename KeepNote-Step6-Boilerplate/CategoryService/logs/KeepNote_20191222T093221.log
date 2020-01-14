@@ -1,0 +1,24 @@
+2019-12-22 09:32:25 [main] INFO  c.s.k.t.r.CategoryRepositoryTest -
+				Starting CategoryRepositoryTest on ip-172-31-42-174 with PID 3675 (started by ubuntu in /home/ubuntu/FSD/final-integration/KeepNote-Step6-Boilerplate/CategoryService)
+2019-12-22 09:32:25 [main] DEBUG c.s.k.t.r.CategoryRepositoryTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-12-22 09:32:25 [main] INFO  c.s.k.t.r.CategoryRepositoryTest -
+				No active profile set, falling back to default profiles: default
+2019-12-22 09:32:35 [main] INFO  c.s.k.t.r.CategoryRepositoryTest -
+				Started CategoryRepositoryTest in 11.426 seconds (JVM running for 14.389)
+2019-12-22 09:32:37 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Starting LoggerTest on ip-172-31-42-174 with PID 3675 (started by ubuntu in /home/ubuntu/FSD/final-integration/KeepNote-Step6-Boilerplate/CategoryService)
+2019-12-22 09:32:37 [main] DEBUG c.s.keepnote.test.log.LoggerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-12-22 09:32:37 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				No active profile set, falling back to default profiles: default
+2019-12-22 09:32:43 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Started LoggerTest in 5.898 seconds (JVM running for 21.928)
+2019-12-22 09:32:43 [main] INFO  c.s.k.t.c.CategoryControllerTest -
+				Starting CategoryControllerTest on ip-172-31-42-174 with PID 3675 (started by ubuntu in /home/ubuntu/FSD/final-integration/KeepNote-Step6-Boilerplate/CategoryService)
+2019-12-22 09:32:43 [main] DEBUG c.s.k.t.c.CategoryControllerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-12-22 09:32:43 [main] INFO  c.s.k.t.c.CategoryControllerTest -
+				No active profile set, falling back to default profiles: default
+2019-12-22 09:32:43 [main] INFO  c.s.k.t.c.CategoryControllerTest -
+				Started CategoryControllerTest in 0.477 seconds (JVM running for 22.476)

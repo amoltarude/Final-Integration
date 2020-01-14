@@ -1,0 +1,36 @@
+<!-- Expansion panel to add new notes -->
+<div class="keep-comp-note-taker-pannel app-note-taker container">
+  <mat-expansion-panel>
+      <mat-expansion-panel-header>
+          <mat-panel-title>
+            Take a category
+          </mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="keep-comp-note-taker-wapper container">
+          <!-- Label to display any error messages -->
+          <label *ngIf="errMessage" class="error-message">{{ errMessage }}</label>
+
+          <form novalidate #noteTakerForm="ngForm" (ngSubmit)="addCategory()">
+              <!-- Note fields -->
+                <div class="row">
+                    <mat-form-field class="col">
+                        <input name="categoryName"  [(ngModel)] = 'category.categoryName'  matInput placeholder="Category Name" type = 'text'>
+                    </mat-form-field>
+                </div>
+
+                <div class="row">
+                    <mat-form-field class="col">
+                        <textarea name="categoryDescription"  [(ngModel)] = 'category.categoryDescription' matInput placeholder="Category Description"></textarea>
+                    </mat-form-field>
+                </div>
+
+              
+              <div class="keep-comp-button row">
+                  <button class="col" type="submit" mat-raised-button color="primary">Done</button>
+              </div>
+
+          
+          </form>
+      </div>
+    </mat-expansion-panel>
+</div> 

@@ -1,0 +1,84 @@
+2019-12-20 01:34:16 [main] INFO  c.s.k.CategoryServiceApplication -
+				Starting CategoryServiceApplication on DELL-PC with PID 2888 (started by DELL in D:\Final Integration\REST\KeepNote-Step6-Boilerplate\CategoryService)
+2019-12-20 01:34:16 [main] DEBUG c.s.k.CategoryServiceApplication -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-12-20 01:34:16 [main] INFO  c.s.k.CategoryServiceApplication -
+				No active profile set, falling back to default profiles: default
+2019-12-20 01:34:20 [localhost-startStop-1] DEBUG c.s.keepnote.jwtfilter.JwtFilter -
+				Initializing filter 'jwtFilter'
+2019-12-20 01:34:20 [localhost-startStop-1] DEBUG c.s.keepnote.jwtfilter.JwtFilter -
+				Filter 'jwtFilter' configured successfully
+2019-12-20 01:34:28 [main] INFO  c.s.k.CategoryServiceApplication -
+				Started CategoryServiceApplication in 12.112 seconds (JVM running for 14.06)
+2019-12-20 01:34:29 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 01:34:30 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 01:34:30 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfbaef0cbe0a525d442a1aa, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=test, categoryName=test],{}>
+2019-12-20 01:34:30 [http-nio-8083-exec-2] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 01:34:41 [http-nio-8083-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 01:34:41 [http-nio-8083-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 01:34:41 [http-nio-8083-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=cxcxc, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=xcxcx, categoryName=xcxc], Category [id=sdsd, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=sdsd, categoryName=sdsd], Category [id=5dfbaee8cbe0a525d442a1a9, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=asasas, categoryName=sasas], Category [id=5dfbaef0cbe0a525d442a1aa, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=test, categoryName=test]],{}>
+2019-12-20 01:34:41 [http-nio-8083-exec-3] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 01:34:43 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 01:34:43 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 01:34:43 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfbaef0cbe0a525d442a1aa, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=test, categoryName=test],{}>
+2019-12-20 01:34:43 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 01:34:43 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 01:34:43 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 01:34:43 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfbaef0cbe0a525d442a1aa, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=test, categoryName=test],{}>
+2019-12-20 01:34:43 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 01:40:49 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 01:40:49 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 01:40:49 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,[Category [id=cxcxc, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=xcxcx, categoryName=xcxc], Category [id=sdsd, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=sdsd, categoryName=sdsd], Category [id=5dfbaee8cbe0a525d442a1a9, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=asasas, categoryName=sasas], Category [id=5dfbaef0cbe0a525d442a1aa, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=test, categoryName=test]],{}>
+2019-12-20 01:40:49 [http-nio-8083-exec-8] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 01:40:52 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 01:40:52 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 01:40:52 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfbaef0cbe0a525d442a1aa, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=test, categoryName=test],{}>
+2019-12-20 01:40:52 [http-nio-8083-exec-9] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 01:40:52 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 01:40:52 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 01:40:52 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfbaef0cbe0a525d442a1aa, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=test, categoryName=test],{}>
+2019-12-20 01:40:52 [http-nio-8083-exec-10] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 01:41:04 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 01:41:04 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 01:41:04 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfbaee8cbe0a525d442a1a9, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=asasas, categoryName=sasas],{}>
+2019-12-20 01:41:04 [http-nio-8083-exec-4] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning
+2019-12-20 01:41:04 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				@Before:
+2019-12-20 01:41:04 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				After
+2019-12-20 01:41:04 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				Return<200 OK,Category [id=5dfbaee8cbe0a525d442a1a9, categoryCreationDate=null, categoryCreatedBy=amolt123, categoryDescription=asasas, categoryName=sasas],{}>
+2019-12-20 01:41:04 [http-nio-8083-exec-5] INFO  c.s.keepnote.aspectj.LoggingAspect -
+				AfterReturning

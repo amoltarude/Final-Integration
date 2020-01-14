@@ -1,0 +1,52 @@
+
+	<mat-toolbar  color="primary">
+    <div class="row">
+
+    </div>
+    
+      <button mat-raised-button class="col-1"  color="primary"  type="button" (click)="sidenav.toggle()"><Strong>KeepNote</Strong></button>	
+      <div class="col-9"></div>
+      <button mat-raised-button class="col-1" color="primary"  type="button" (click)="logout()"><Strong>Logout</Strong></button>	
+
+  
+        <div class="col-1"  (click)="test()">
+
+        <i *ngIf="isNoteView" class="material-icons switchToListView">view_list</i>
+        <i *ngIf="!isNoteView" class="material-icons switchToNoteView">view_quilt</i>
+      
+      
+  
+    </div>
+   
+	</mat-toolbar>
+<mat-sidenav-container class="example-container">
+    <mat-sidenav #sidenav mode="side" [(opened)]="opened" class="example-sidenav container"
+                 [fixedInViewport]="options.value.fixed" [fixedTopGap]="options.value.top"
+                 [fixedBottomGap]="options.value.bottom"> 
+      <div class="row">
+        <button mat-raised-button class="button button3" color="primary"  type="button" [routerLink]="['/dashboard']">Notes</button>
+      </div>
+      <div class="row">
+        <button mat-raised-button class="button button3" color="primary"  type="button" [routerLink]="['/category-dashboard']">Category</button>
+      </div>
+      <div class="row">
+        <button mat-raised-button class="button button3" color="primary"  type="button" [routerLink]="['/reminder-dashboard']">Reminder</button>
+      </div>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+      <!-- <p><mat-checkbox formControlName="fixed">Fixed</mat-checkbox></p> -->
+      <!-- <p><mat-form-field>
+        <input matInput type="number" formControlName="top" placeholder="Top gap">
+      </mat-form-field></p>
+      <p><mat-form-field>
+        <input matInput type="number" formControlName="bottom" placeholder="Bottom gap">
+      </mat-form-field></p> -->
+	  <!-- <p><button mat-button (click)="sidenav.toggle()">Toggle</button></p> -->
+	 
+
+	  <router-outlet></router-outlet>
+
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+

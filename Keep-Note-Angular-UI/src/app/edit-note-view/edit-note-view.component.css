@@ -1,0 +1,18 @@
+.selected-reminertext{
+    
+    background-image: linear-gradient(to right, blue , whitesmoke);
+    color: white;
+    display: block;
+}
+
+.selected-reminer{
+    background-color: blue;
+    color: white;
+    height: auto;
+    width: auto;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+  }

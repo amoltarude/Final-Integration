@@ -1,0 +1,7 @@
+<div class="keep-c-note-container">
+  
+	<!-- Include the notes collection with each note rendered as a separate NoteComponent -->
+	<div class="card-container">
+    <app-reminder [reminder] = "rem" *ngFor = "let rem of reminders"></app-reminder>
+	</div>
+</div>

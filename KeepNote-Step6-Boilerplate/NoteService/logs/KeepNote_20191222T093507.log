@@ -1,0 +1,88 @@
+2019-12-22 09:35:08 [main] INFO  c.s.k.t.r.NoteRepositoryTest -
+				Starting NoteRepositoryTest on ip-172-31-42-174 with PID 4256 (started by ubuntu in /home/ubuntu/FSD/final-integration/KeepNote-Step6-Boilerplate/NoteService)
+2019-12-22 09:35:08 [main] DEBUG c.s.k.t.r.NoteRepositoryTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-12-22 09:35:08 [main] INFO  c.s.k.t.r.NoteRepositoryTest -
+				No active profile set, falling back to default profiles: default
+2019-12-22 09:35:10 [main] INFO  c.s.k.t.r.NoteRepositoryTest -
+				Started NoteRepositoryTest in 2.392 seconds (JVM running for 3.941)
+2019-12-22 09:35:12 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Starting LoggerTest on ip-172-31-42-174 with PID 4256 (started by ubuntu in /home/ubuntu/FSD/final-integration/KeepNote-Step6-Boilerplate/NoteService)
+2019-12-22 09:35:12 [main] DEBUG c.s.keepnote.test.log.LoggerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-12-22 09:35:12 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				No active profile set, falling back to default profiles: default
+2019-12-22 09:35:15 [main] INFO  c.s.keepnote.test.log.LoggerTest -
+				Started LoggerTest in 3.361 seconds (JVM running for 8.537)
+2019-12-22 09:35:15 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				Starting NoteControllerTest on ip-172-31-42-174 with PID 4256 (started by ubuntu in /home/ubuntu/FSD/final-integration/KeepNote-Step6-Boilerplate/NoteService)
+2019-12-22 09:35:15 [main] DEBUG c.s.k.t.c.NoteControllerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-12-22 09:35:15 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				No active profile set, falling back to default profiles: default
+2019-12-22 09:35:16 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				Starting NoteControllerTest on ip-172-31-42-174 with PID 4256 (started by ubuntu in /home/ubuntu/FSD/final-integration/KeepNote-Step6-Boilerplate/NoteService)
+2019-12-22 09:35:16 [main] DEBUG c.s.k.t.c.NoteControllerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-12-22 09:35:16 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				No active profile set, falling back to default profiles: default
+2019-12-22 09:35:16 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				Starting NoteControllerTest on ip-172-31-42-174 with PID 4256 (started by ubuntu in /home/ubuntu/FSD/final-integration/KeepNote-Step6-Boilerplate/NoteService)
+2019-12-22 09:35:16 [main] DEBUG c.s.k.t.c.NoteControllerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-12-22 09:35:16 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				No active profile set, falling back to default profiles: default
+2019-12-22 09:35:16 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				Starting NoteControllerTest on ip-172-31-42-174 with PID 4256 (started by ubuntu in /home/ubuntu/FSD/final-integration/KeepNote-Step6-Boilerplate/NoteService)
+2019-12-22 09:35:16 [main] DEBUG c.s.k.t.c.NoteControllerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-12-22 09:35:16 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				No active profile set, falling back to default profiles: default
+2019-12-22 09:35:16 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				Starting NoteControllerTest on ip-172-31-42-174 with PID 4256 (started by ubuntu in /home/ubuntu/FSD/final-integration/KeepNote-Step6-Boilerplate/NoteService)
+2019-12-22 09:35:16 [main] DEBUG c.s.k.t.c.NoteControllerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-12-22 09:35:16 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				No active profile set, falling back to default profiles: default
+2019-12-22 09:35:16 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				Starting NoteControllerTest on ip-172-31-42-174 with PID 4256 (started by ubuntu in /home/ubuntu/FSD/final-integration/KeepNote-Step6-Boilerplate/NoteService)
+2019-12-22 09:35:16 [main] DEBUG c.s.k.t.c.NoteControllerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-12-22 09:35:16 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				No active profile set, falling back to default profiles: default
+2019-12-22 09:35:17 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				Starting NoteControllerTest on ip-172-31-42-174 with PID 4256 (started by ubuntu in /home/ubuntu/FSD/final-integration/KeepNote-Step6-Boilerplate/NoteService)
+2019-12-22 09:35:17 [main] DEBUG c.s.k.t.c.NoteControllerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-12-22 09:35:17 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				No active profile set, falling back to default profiles: default
+2019-12-22 09:35:17 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				Starting NoteControllerTest on ip-172-31-42-174 with PID 4256 (started by ubuntu in /home/ubuntu/FSD/final-integration/KeepNote-Step6-Boilerplate/NoteService)
+2019-12-22 09:35:17 [main] DEBUG c.s.k.t.c.NoteControllerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-12-22 09:35:17 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				No active profile set, falling back to default profiles: default
+2019-12-22 09:35:17 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				Starting NoteControllerTest on ip-172-31-42-174 with PID 4256 (started by ubuntu in /home/ubuntu/FSD/final-integration/KeepNote-Step6-Boilerplate/NoteService)
+2019-12-22 09:35:17 [main] DEBUG c.s.k.t.c.NoteControllerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-12-22 09:35:17 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				No active profile set, falling back to default profiles: default
+2019-12-22 09:35:17 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				Starting NoteControllerTest on ip-172-31-42-174 with PID 4256 (started by ubuntu in /home/ubuntu/FSD/final-integration/KeepNote-Step6-Boilerplate/NoteService)
+2019-12-22 09:35:17 [main] DEBUG c.s.k.t.c.NoteControllerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-12-22 09:35:17 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				No active profile set, falling back to default profiles: default
+2019-12-22 09:35:17 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				Starting NoteControllerTest on ip-172-31-42-174 with PID 4256 (started by ubuntu in /home/ubuntu/FSD/final-integration/KeepNote-Step6-Boilerplate/NoteService)
+2019-12-22 09:35:17 [main] DEBUG c.s.k.t.c.NoteControllerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-12-22 09:35:17 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				No active profile set, falling back to default profiles: default
+2019-12-22 09:35:18 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				Starting NoteControllerTest on ip-172-31-42-174 with PID 4256 (started by ubuntu in /home/ubuntu/FSD/final-integration/KeepNote-Step6-Boilerplate/NoteService)
+2019-12-22 09:35:18 [main] DEBUG c.s.k.t.c.NoteControllerTest -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-12-22 09:35:18 [main] INFO  c.s.k.t.c.NoteControllerTest -
+				No active profile set, falling back to default profiles: default

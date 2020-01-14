@@ -1,0 +1,76 @@
+.keep-c-toggle-view {
+	width: 100%;
+	margin-left: 93%;
+	cursor: pointer;
+}
+
+.sidenav-toggle-view {
+	width: 100%;
+	margin-left: 10%;
+	cursor: pointer;
+}
+.example-container {
+	position: absolute;
+	top: 60px;
+	bottom: 60px;
+	left: 0;
+	right: 0;
+  }
+  
+  .example-sidenav {
+	display: block;
+	align-items:center;
+	justify-content: space-evenly;
+	width: 200px;
+	background-image: linear-gradient(to right, rgb(40, 40, 204) , whitesmoke);
+	border: 5 red;
+  }
+  
+  .button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 500;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+	width: 100%;
+	margin-top: 25px;
+  }
+  .button3 {
+	background-color: rgb(40, 40, 204); 
+	color: white; 
+	border: 2px solid rgb(68, 68, 219);
+  }
+  .button3:hover {
+	background-image: linear-gradient(to right, rgb(40, 40, 204) , whitesmoke);
+	color: white;
+  }
+  .example-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+  }
+
+  .app-title{
+	  height: 60px;
+	  width: 90;
+	  background-color:rgb(40, 40, 204);
+	color: white;
+	align-items: center;
+	text-align: center;
+	display: block;
+	font-size: 20px;
+	font-weight: 500;
+	align-items: center;
+  }
+  
+
+  

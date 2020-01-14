@@ -1,0 +1,10 @@
+2019-12-20 17:29:29 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				Starting NoteServiceApplication on DELL-PC with PID 16428 (started by DELL in D:\Final Integration\REST\KeepNote-Step6-Boilerplate\NoteService)
+2019-12-20 17:29:29 [main] DEBUG c.s.keepnote.NoteServiceApplication -
+				Running with Spring Boot v2.0.2.RELEASE, Spring v5.0.6.RELEASE
+2019-12-20 17:29:29 [main] INFO  c.s.keepnote.NoteServiceApplication -
+				No active profile set, falling back to default profiles: default
+2019-12-20 17:29:32 [localhost-startStop-1] DEBUG c.s.keepnote.jwtfilter.JwtFilter -
+				Initializing filter 'jwtFilter'
+2019-12-20 17:29:32 [localhost-startStop-1] DEBUG c.s.keepnote.jwtfilter.JwtFilter -
+				Filter 'jwtFilter' configured successfully

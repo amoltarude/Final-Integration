@@ -1,0 +1,21 @@
+<div class="container">
+<!-- Label to display any error messages -->
+<label class="error-message">{{ errMessage }}</label>
+
+<div class="row">
+  <mat-form-field class="col"> 
+    <input [(ngModel)]="category.categoryName" name="editCategoryName" matInput placeholder="Category Name" type="text">
+  </mat-form-field>
+</div>
+<div class="row">
+  <mat-form-field class="col">
+    <textarea [(ngModel)]="category.categoryDescription" name="editCategoryDescription" matInput placeholder="Description"></textarea>
+  </mat-form-field>
+</div>
+
+<div class="keep-c-done-wrapper row">
+  <button mat-raised-button mat-primary class="col" color="primary" mat-button (click)="onSave()">Save</button>
+  <div class="col"></div>
+  <button mat-raised-button mat-primary class="col" color="primary" mat-button (click)="onDelete()">Delete</button>
+</div>
+</div>

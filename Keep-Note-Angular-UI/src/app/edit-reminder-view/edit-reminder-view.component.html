@@ -1,0 +1,26 @@
+<div>
+<!-- Label to display any error messages -->
+<label class="error-message">{{ errMessage }}</label>
+
+<div class="row">
+  <mat-form-field class="col"> 
+    <input [(ngModel)]="remider.reminderName" name="editReminderName" matInput placeholder="Reminder Name" type="text">
+  </mat-form-field>
+</div>
+<div class="row">
+  <mat-form-field class="col"> 
+    <input [(ngModel)]="remider.reminderType" name="editReminderType" matInput placeholder="Reminder Type" type="text">
+  </mat-form-field>
+</div>
+<div class="row">
+  <mat-form-field class="col">
+    <textarea [(ngModel)]="remider.reminderDescription" name="editReminderDescription" matInput placeholder="Reminder Description"></textarea>
+  </mat-form-field>
+</div>
+
+<div class="keep-c-done-wrapper row">
+  <button mat-raised-button mat-primary color="primary" mat-button class="col" (click)="onSave()">Save</button>
+  <div class="col"></div>
+  <button mat-raised-button mat-primary color="primary" mat-button class="col" (click)="onDelete()">Delete</button>
+</div>
+</div>
